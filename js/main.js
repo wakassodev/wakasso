@@ -1103,3 +1103,18 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    fetch(this.action, {
+        method: 'POST',
+        body: new FormData(this),
+    })
+    .then(response => response.text())
+    .then(result => {
+        alert(result);  // You can replace this with a more user-friendly way to display the message
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again later.');
+    });
+});
