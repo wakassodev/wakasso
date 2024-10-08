@@ -1143,7 +1143,7 @@ readers do not read off random characters that represent icons */
 .fa-camera-alt:before {
   content: "\f332"; }
 
-.fa-camera-home:before {
+.fa-camera-index:before {
   content: "\f8fe"; }
 
 .fa-camera-movie:before {
@@ -3369,19 +3369,19 @@ readers do not read off random characters that represent icons */
 .fa-holly-berry:before {
   content: "\f7aa"; }
 
-.fa-home:before {
+.fa-index:before {
   content: "\f015"; }
 
-.fa-home-alt:before {
+.fa-index-alt:before {
   content: "\f80a"; }
 
-.fa-home-heart:before {
+.fa-index-heart:before {
   content: "\f4c9"; }
 
-.fa-home-lg:before {
+.fa-index-lg:before {
   content: "\f80b"; }
 
-.fa-home-lg-alt:before {
+.fa-index-lg-alt:before {
   content: "\f80c"; }
 
 .fa-hood-cloak:before {
@@ -6003,40 +6003,40 @@ readers do not read off random characters that represent icons */
 .fa-tablets:before {
   content: "\f490"; }
 
-.fa-tachometer:before {
+.fa-tacindexter:before {
   content: "\f0e4"; }
 
-.fa-tachometer-alt:before {
+.fa-tacindexter-alt:before {
   content: "\f3fd"; }
 
-.fa-tachometer-alt-average:before {
+.fa-tacindexter-alt-average:before {
   content: "\f624"; }
 
-.fa-tachometer-alt-fast:before {
+.fa-tacindexter-alt-fast:before {
   content: "\f625"; }
 
-.fa-tachometer-alt-fastest:before {
+.fa-tacindexter-alt-fastest:before {
   content: "\f626"; }
 
-.fa-tachometer-alt-slow:before {
+.fa-tacindexter-alt-slow:before {
   content: "\f627"; }
 
-.fa-tachometer-alt-slowest:before {
+.fa-tacindexter-alt-slowest:before {
   content: "\f628"; }
 
-.fa-tachometer-average:before {
+.fa-tacindexter-average:before {
   content: "\f629"; }
 
-.fa-tachometer-fast:before {
+.fa-tacindexter-fast:before {
   content: "\f62a"; }
 
-.fa-tachometer-fastest:before {
+.fa-tacindexter-fastest:before {
   content: "\f62b"; }
 
-.fa-tachometer-slow:before {
+.fa-tacindexter-slow:before {
   content: "\f62c"; }
 
-.fa-tachometer-slowest:before {
+.fa-tacindexter-slowest:before {
   content: "\f62d"; }
 
 .fa-taco:before {
@@ -7962,7 +7962,7 @@ readers do not read off random characters that represent icons */
 .fad.fa-camera-alt:after {
   content: "\10f332"; }
 
-.fad.fa-camera-home:after {
+.fad.fa-camera-index:after {
   content: "\10f8fe"; }
 
 .fad.fa-camera-movie:after {
@@ -9750,19 +9750,19 @@ readers do not read off random characters that represent icons */
 .fad.fa-holly-berry:after {
   content: "\10f7aa"; }
 
-.fad.fa-home:after {
+.fad.fa-index:after {
   content: "\10f015"; }
 
-.fad.fa-home-alt:after {
+.fad.fa-index-alt:after {
   content: "\10f80a"; }
 
-.fad.fa-home-heart:after {
+.fad.fa-index-heart:after {
   content: "\10f4c9"; }
 
-.fad.fa-home-lg:after {
+.fad.fa-index-lg:after {
   content: "\10f80b"; }
 
-.fad.fa-home-lg-alt:after {
+.fad.fa-index-lg-alt:after {
   content: "\10f80c"; }
 
 .fad.fa-hood-cloak:after {
@@ -11853,40 +11853,40 @@ readers do not read off random characters that represent icons */
 .fad.fa-tablets:after {
   content: "\10f490"; }
 
-.fad.fa-tachometer:after {
+.fad.fa-tacindexter:after {
   content: "\10f0e4"; }
 
-.fad.fa-tachometer-alt:after {
+.fad.fa-tacindexter-alt:after {
   content: "\10f3fd"; }
 
-.fad.fa-tachometer-alt-average:after {
+.fad.fa-tacindexter-alt-average:after {
   content: "\10f624"; }
 
-.fad.fa-tachometer-alt-fast:after {
+.fad.fa-tacindexter-alt-fast:after {
   content: "\10f625"; }
 
-.fad.fa-tachometer-alt-fastest:after {
+.fad.fa-tacindexter-alt-fastest:after {
   content: "\10f626"; }
 
-.fad.fa-tachometer-alt-slow:after {
+.fad.fa-tacindexter-alt-slow:after {
   content: "\10f627"; }
 
-.fad.fa-tachometer-alt-slowest:after {
+.fad.fa-tacindexter-alt-slowest:after {
   content: "\10f628"; }
 
-.fad.fa-tachometer-average:after {
+.fad.fa-tacindexter-average:after {
   content: "\10f629"; }
 
-.fad.fa-tachometer-fast:after {
+.fad.fa-tacindexter-fast:after {
   content: "\10f62a"; }
 
-.fad.fa-tachometer-fastest:after {
+.fad.fa-tacindexter-fastest:after {
   content: "\10f62b"; }
 
-.fad.fa-tachometer-slow:after {
+.fad.fa-tacindexter-slow:after {
   content: "\10f62c"; }
 
-.fad.fa-tachometer-slowest:after {
+.fad.fa-tacindexter-slowest:after {
   content: "\10f62d"; }
 
 .fad.fa-taco:after {
