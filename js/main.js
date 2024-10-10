@@ -203,27 +203,27 @@ document.addEventListener("DOMContentLoaded", function () {
         return href && href.trim() !== '' && href.length > 1 && !/^#(\.|$)/.test(href);
     }
 
-    document.querySelectorAll('.mil-has-children > a').forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.stopPropagation();
-            event.preventDefault(); // Додаємо, щоб уникнути переходу за посиланням
+    // document.querySelectorAll('.mil-has-children > a').forEach(link => {
+    //     link.addEventListener('click', function (event) {
+    //         event.stopPropagation();
+    //         event.preventDefault(); 
 
-            const parentElement = link.parentElement;
-            const isActive = parentElement.classList.contains('mil-active');
+    //         const parentElement = link.parentElement;
+    //         const isActive = parentElement.classList.contains('mil-active');
 
-            document.querySelectorAll('.mil-has-children').forEach(el => {
-                const ul = el.querySelector('ul');
-                el.classList.remove('mil-active');
-                if (ul) ul.style.maxHeight = '0';
-            });
+    //         document.querySelectorAll('.mil-has-children').forEach(el => {
+    //             const ul = el.querySelector('ul');
+    //             el.classList.remove('mil-active');
+    //             if (ul) ul.style.maxHeight = '0';
+    //         });
 
-            if (!isActive) {
-                parentElement.classList.add('mil-active');
-                const ul = parentElement.querySelector('ul');
-                if (ul) ul.style.maxHeight = `${ul.scrollHeight}px`;
-            }
-        });
-    });
+    //         if (!isActive) {
+    //             parentElement.classList.add('mil-active');
+    //             const ul = parentElement.querySelector('ul');
+    //             if (ul) ul.style.maxHeight = `${ul.scrollHeight}px`;
+    //         }
+    //     });
+    // });
 
     let lastScrollTop = 0;
 
@@ -718,31 +718,31 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
 
-        function isValidHref(href) {
-            return href && href.trim() !== '' && href.length > 1 && !/^#(\.|$)/.test(href);
-        }
+        // function isValidHref(href) {
+        //     return href && href.trim() !== '' && href.length > 1 && !/^#(\.|$)/.test(href);
+        // }
 
-        document.querySelectorAll('.mil-has-children > a').forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.stopPropagation();
-                event.preventDefault(); // Додаємо, щоб уникнути переходу за посиланням
+        // document.querySelectorAll('.mil-has-children > a').forEach(link => {
+        //     link.addEventListener('click', function (event) {
+        //         event.stopPropagation();
+        //         event.preventDefault(); // Додаємо, щоб уникнути переходу за посиланням
 
-                const parentElement = link.parentElement;
-                const isActive = parentElement.classList.contains('mil-active');
+        //         const parentElement = link.parentElement;
+        //         const isActive = parentElement.classList.contains('mil-active');
 
-                document.querySelectorAll('.mil-has-children').forEach(el => {
-                    const ul = el.querySelector('ul');
-                    el.classList.remove('mil-active');
-                    if (ul) ul.style.maxHeight = '0';
-                });
+        //         document.querySelectorAll('.mil-has-children').forEach(el => {
+        //             const ul = el.querySelector('ul');
+        //             el.classList.remove('mil-active');
+        //             if (ul) ul.style.maxHeight = '0';
+        //         });
 
-                if (!isActive) {
-                    parentElement.classList.add('mil-active');
-                    const ul = parentElement.querySelector('ul');
-                    if (ul) ul.style.maxHeight = `${ul.scrollHeight}px`;
-                }
-            });
-        });
+        //         if (!isActive) {
+        //             parentElement.classList.add('mil-active');
+        //             const ul = parentElement.querySelector('ul');
+        //             if (ul) ul.style.maxHeight = `${ul.scrollHeight}px`;
+        //         }
+        //     });
+        // });
         /* -------------------------------------------
 
         onepage navigation

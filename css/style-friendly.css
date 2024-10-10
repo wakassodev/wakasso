@@ -3276,6 +3276,19 @@ menu window
 .mil-main-menu li ul li:hover a {
   padding-left: 5px;
 }
+
+.mil-has-children > a {
+  display: block;
+}
+
+.mil-has-children > a:hover {
+  /* Add hover styles */
+  color: #353639;
+  border-left: solid 4px #83b3d9;
+  letter-spacing: 1px;
+  padding-left: 5px;
+
+}
 .mil-main-menu li.mil-has-children:after {
   font-family: "Font Awesome 5 Pro";
   font-weight: 100;
